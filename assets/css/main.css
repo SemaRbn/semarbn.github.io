@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+@import url(icons8.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
 
 html, body, div, span, applet, object,
@@ -862,6 +863,15 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+        .fa-whatsapp {
+        color: #25d366;
+        }
+        .fa-whatsapp-square {
+        color: #25d366;
+        }
+        .fa-instagram {
+        color: #e1306c;
+        }
 
 /* Image */
 
