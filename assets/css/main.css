@@ -3936,3 +3936,26 @@ input, select, textarea {
 	            padding: 200;
 	            border: 200;
             }
+/* MAP!!!*/
+#wrapMap {
+    position: relative;
+    cursor: help;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+}
+.mapTitle {
+    position: absolute;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px;
+    display: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+}
